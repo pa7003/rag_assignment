@@ -44,6 +44,13 @@ python src/main.py --query "What is the refund policy?"
 ```bash
 python src/evaluate.py
 ```
+
+### Web UI (Streamlit)
+You can also interact with the system via a web interface.
+```bash
+streamlit run src/app.py
+```
+This will open `http://localhost:8501` in your browser.
 This runs a test suite of answerable and unanswerable questions.
 
 ## Prompt Engineering
